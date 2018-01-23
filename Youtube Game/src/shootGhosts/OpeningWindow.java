@@ -15,6 +15,10 @@ public class OpeningWindow extends JPanel {
 	// Constructor Function
 	OpeningWindow() {
 		window.add(this);
+
+		// Sets the window that isn't right at the top-left corner of your screen
+		window.setLocation(50, 50);
+		window.setUndecorated(true);
 		window.setSize(1191, 670);
 		
 		window.setVisible(true);
